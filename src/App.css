@@ -1,0 +1,93 @@
+#root {
+  max-width: 640px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.badge {
+  width: 67px;
+  height: 24px;
+  border-radius: 4px;
+  padding: 2px 12px;
+  text-align: center;
+}
+
+.banner {
+  max-width: 360px;
+  max-height: 240px;
+  text-align: center;
+  line-height: 1.1rem;
+  border-radius: 4px;
+  padding: 2px 12px;
+}
+
+.banner--title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner--icon {
+  margin: 0 5px;
+}
+
+.yellow {
+  color: #92400e;
+  background-color: #fef3c7;
+}
+
+.green {
+  color: #065f46;
+  background-color: #d1fae5;
+}
+
+.blue {
+  color: #1E40AF;
+  background-color: #DBEAFE;
+}
+
+.red {
+  color: #991b1b;
+  background-color: #fee2e2;
+}
+
+.card {
+  width: 384px;
+  height: 208px;
+  background-color: #f9fafb;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+}
+
+.card--container {
+  position: relative;
+  height: 50px;
+}
+
+.card--icon {
+  position: absolute;
+  top: -24px;
+  left: 168px;
+  width: 40px;
+  height: 40px;
+  background-color: #3f75fe;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.card--title {
+  color: #111827;
+  margin: 10px;
+}
+
+.card--text {
+  color: #6b7280;
+  margin: 10px;
+}
